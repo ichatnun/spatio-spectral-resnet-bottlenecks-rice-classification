@@ -44,7 +44,7 @@ def createAndTrainResNetB(params):
     # Load training data and their corresponding labels
     x_training = np.load('x.npy')
     labels_training = np.load('labels.npy')
-    pdb.set_trace()
+    
     # Normalize the data
     x_training = normalizeDataWholeSeed(x_training,normalization_type=normalization_type)
     
