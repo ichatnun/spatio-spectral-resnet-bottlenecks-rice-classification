@@ -306,7 +306,7 @@ if __name__ == '__main__':
     # example dataset
     params['batch_size'] = 3                    # Batch size
     params['USE_DATA_AUG'] = False              # Use data augmentation (In the paper, we set it to True)
-    params['learning_rate_base'] = 0.00001      # Initial learning rate (In the paper, we set it to 0.05)
+    params['learning_rate_base'] = 0.00001      # Initial learning rate (In the paper, we set it to 0.005)
 
     # Add 'swish' activation
     if params['activation_type'] == 'swish':
